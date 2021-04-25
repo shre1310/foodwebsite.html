@@ -1,0 +1,47 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  
+  
+}
+ header{
+background-image: linear-gradient(rgba(114, 33, 114, 0.2),rgba(141, 28, 141, 0.3)), url('images/pink.jpeg');
+background-position: center;
+   height: 50vh;
+ }
+ h1{
+  text-align: center;
+  font-size: 240%;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+  
+
+
+.container{
+  max-width: 1200px;
+margin: auto;
+background: #f2f2f2;
+overflow: auto;
+}
+.gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 390px;
+}
+.gallery img{
+  width: 100%;
+  height: auto;
+}
+.desc{
+  padding: 15px;
+  text-align: center;
+}

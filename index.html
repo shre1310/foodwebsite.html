@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodieme</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+  
+
+<body>
+
+      <header>
+        <nav>
+          <div class="row clearfix">
+          <img src="images/logo.png"class="logo">
+        <ul class="main-nav animated slideInDown" id="check-class">
+          <li><a href="order.html">order</a></li>
+         <li><a href="signup.html">sign up</a></li>
+          <li><a href="login.html">Log in</a></li>
+   </div>
+</ul>
+        <a href="#" class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars"></i></a>
+        </nav>
+        
+        <div class="main-content-header">
+          <h1>the food you <span class="colorchange">love is</span> <br>
+           the food you deserve.</h1>
+           <a href="discover.html" class="btn btn-full">Discover us</a>
+           <a href="contactpage.html" class="btn btn-less">contact us</a>
+        </div>
+
+        
+
+      </header>
+
+      <div class="wrap">
+          <h1>Ready to order?</h1><br>
+          <div class="search"></div>
+          <p>Browse local restaurants and businesses for delivery by entering your address below.</p>
+           <input type="text" class="searchTerm" placeholder="Find food here..."><button type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+         </button>
+        </div>
+        
+          
+  
+      <div class="about-section">
+        <div class="inner-container">
+          
+          <h1>Save big on every order.<br>Join unlimited.
+          </h1>
+          <p class="text">
+            Unlimited free deliveries. Reduced fees on eligible orders. Exclusive deals. Try Postmates Unlimited now for free, cancel anytime.
+          </p>
+          <a href="free.html" class="btn btn-full">try unlimited for free</a>
+        
+        </div>
+      </div>
+      
+      
+    </div>
+
+      <!-- footer -->
+     
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">FoodieMe.com <i>The food you love is the food you deserve </i> is an online food ordering system which has been developed for restaurant owners and food lovers. Foodieme helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Usefull links</h6>
+              <ul class="footer-links">
+                <li><a href="#">Gift cards</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Student discount</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Cities</h6>
+              <ul class="footer-links">
+                <li><a href="#">Guwahati</a></li>
+                <li><a href="#">Jorhat</a></li>
+                <li><a href="#">Silchar</a></li>
+                <li><a href="#">Dibrugarh</a></li>
+                <li><a href="#">Shillong</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+           <a href="#">FoodieMe</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+
+      <!--// footer -->
+      <script type="text/javascript">
+      function slideshow(){
+        var x = document.getElementById('check-class');
+        if(x.style.display ==="none"){
+          x.style.display="block";
+        }else{
+          x.style.display="none";
+        }
+      }
+    </script>
+    
+      </body>
+</html>
